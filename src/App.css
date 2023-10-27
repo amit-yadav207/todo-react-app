@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Overall container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Wrapper styles */
+.wrapper {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.heading {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.heading h1 {
+  margin: 0;
+}
+
+/* Input area styles */
+.inputarea {
+  padding: 20px;
+}
+
+/* List styles */
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.list li.completed {
+  text-decoration: line-through;
+  background-color: #d9ffd9;
+}
+
+.list li .delete-button {
+  color: #ff4646;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Input and button styles in GetInput component can be added as needed */
+
